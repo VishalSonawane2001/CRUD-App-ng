@@ -41,7 +41,7 @@ This will compile your project and store the build artifacts in the `dist/` dire
 ### Add Operation
 Below is a screenshot of the **Add** operation in the application:
 
-![Add Operation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Add_record.png) https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Add_record.png
+![Add Operation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Add_record.png) 
 
 ### Update Operation
 Below is a screenshot of the **Update** operation in the application:
