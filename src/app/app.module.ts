@@ -4,6 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { CrudComponent } from './crud/crud.component';
 import { RouterModule } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes = [
   { path: '', component: CrudComponent }
@@ -11,7 +12,7 @@ const routes = [
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, CrudComponent,
-    RouterModule.forRoot(routes),],
+    RouterModule.forRoot(routes),HttpClientModule],
   providers: [],
   bootstrap: [AppComponent]
 })

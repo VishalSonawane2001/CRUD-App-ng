@@ -1,0 +1,13 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+    /* color: #; */
+}
+p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 450px;
+    
+}

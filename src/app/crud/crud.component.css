@@ -1,8 +1,23 @@
 .container {
+    background-color: aliceblue;
     max-width: 800px;
     margin: auto;
-}
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 
+}
+.container h1 {
+    font-weight: bold;
+}
+#content{
+    background-color: rgba(208, 224, 238, 0.562);
+    padding-bottom: 100svb; 
+    padding-top: 5px;
+}
 form {
     display: flex;
     flex-wrap: wrap;
@@ -11,12 +26,28 @@ form {
 }
 
 form input {
+    border-radius: 3px;
+    border-color: rgba(238, 223, 174, 0.733);
     flex: 1;
     padding: 5px;
 }
 
 form button {
+    border-radius: 5px;
     padding: 5px 10px;
+}
+
+form #sub {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+form #reset {
+    background-color: #df1919;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 table {
@@ -27,6 +58,7 @@ table {
 
 table th,
 table td {
+    border-radius: 2px;
     border: 1px solid #ccc;
     padding: 8px;
     text-align: left;
@@ -34,4 +66,9 @@ table td {
 
 table th {
     background-color: #f4f4f4;
+}
+tbody tr td button {
+    border-radius: 3px;
+    color: white;
+    background-color:black
 }

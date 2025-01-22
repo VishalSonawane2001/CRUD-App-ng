@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { FormBuilder, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Employee } from './crud.module';
 import { CommonModule } from '@angular/common';
 
@@ -21,15 +21,26 @@ export class CrudComponent {
 
   constructor(private fb: FormBuilder, ) {
     this.employeeForm = this.fb.group({
-      id: [''],
-      name: [''],
-      email: [''],
-      city: [''],
-      mobile: ['']
+      id: ['',[Validators.required,Validators.pattern('^[0-9]*$')]],
+      name: ['',Validators.required],
+      email: ['',[Validators.required,Validators.email]],
+      city: ['', Validators.required],
+      mobile: ['',[Validators.required,Validators.pattern('^[0-9]*$')]]
     });
   }
+// ngOnInit() {
+//   this.loadEmployees();
+// }
+//   loadEmployees() {
+//         throw new Error('Method not implemented.');
+//   }
 
   addOrUpdateEmployee() {
+    if(this.employeeForm.invalid){
+      alert('Please fill all the fields with valid data');
+      return;
+    }
+
     if (this.editing) {
       const index = this.employees.findIndex(emp => emp.id === this.editId);
       if (index !== -1) {
@@ -42,6 +53,7 @@ export class CrudComponent {
       this.employees.push(newEmployee);
     }
     this.employeeForm.reset();
+        
   }
 
   editEmployee(employee: Employee) {
