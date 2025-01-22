@@ -41,22 +41,22 @@ This will compile your project and store the build artifacts in the `dist/` dire
 ### Add Operation
 Below is a screenshot of the **Add** operation in the application:
 
-![Add Operation](images/https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Add_record.png) https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Add_record.png
+![Add Operation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Add_record.png) https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Add_record.png
 
 ### Update Operation
 Below is a screenshot of the **Update** operation in the application:
 
-![Update Operation](images/Update.png.png)
+![Update Operation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Update_record.png)
 
 ### Delete Operation
 Below is a screenshot of the **Delete** operation in the application:
 
-![Delete Operation](images/Delete_record.png.png)
+![Delete Operation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Delete_rc.png)
 
 ## Validation
 Below is a screenshot of the **Validation** operation in the application:
 
-![Validation](images/Validation.png.png.png)
+![Validation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Validation_rc.png)
 
 
 ## Additional Resources
