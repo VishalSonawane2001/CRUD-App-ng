@@ -36,23 +36,28 @@ ng build
 
 This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+## CRUD Operations
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+### Add Operation
+Below is a screenshot of the **Add** operation in the application:
 
-```bash
-ng test
-```
+![Add Operation](images/Add_record.png.png)
 
-## Running end-to-end tests
+### Update Operation
+Below is a screenshot of the **Update** operation in the application:
 
-For end-to-end (e2e) testing, run:
+![Update Operation](images/Update.png.png)
 
-```bash
-ng e2e
-```
+### Delete Operation
+Below is a screenshot of the **Delete** operation in the application:
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+![Delete Operation](images/Delete_record.png.png)
+
+## Validation
+Below is a screenshot of the **Validation** operation in the application:
+
+![Validation](images/Validation.png.png.png)
+
 
 ## Additional Resources
 
