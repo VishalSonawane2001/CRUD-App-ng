@@ -1,0 +1,38 @@
+<div class="container">
+    <h1>Employee CRUD Table</h1>
+    <form [formGroup]="employeeForm" (ngSubmit)="addOrUpdateEmployee()">
+        <input formControlName="id" placeholder="Employee ID" />
+        <input formControlName="name" placeholder="Name" />
+        <input formControlName="email" placeholder="Email" />
+        <input formControlName="city" placeholder="City" />
+        <input formControlName="mobile" placeholder="Mobile" />
+        <button type="submit">{{ editing ? 'Update' : 'Add' }}</button>
+        <button type="button" (click)="resetForm()">Reset</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>City</th>
+                <th>Mobile</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let emp of employees">
+                <td>{{ emp.id }}</td>
+                <td>{{ emp.name }}</td>
+                <td>{{ emp.email }}</td>
+                <td>{{ emp.city }}</td>
+                <td>{{ emp.mobile }}</td>
+                <td>
+                    <button (click)="editEmployee(emp)">Edit</button>
+                    <button (click)="deleteEmployee(emp.id)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
