@@ -46,12 +46,12 @@ Below is a screenshot of the **Add** operation in the application:
 ### Update Operation
 Below is a screenshot of the **Update** operation in the application:
 
-![Update Operation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Update_record.png)
+![Update Operation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Update_rc.png)
 
 ### Delete Operation
 Below is a screenshot of the **Delete** operation in the application:
 
-![Delete Operation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Delete_rc.png)
+![Delete Operation](https://github.com/VishalSonawane2001/CRUD-App-ng/blob/main/images/Delete_record.png)
 
 ## Validation
 Below is a screenshot of the **Validation** operation in the application:
